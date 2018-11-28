@@ -1,9 +1,10 @@
 
 === Woocommerce Weight Based shipping for States/Regions/Cities ===
-Contributors: tunbola
+Contributors: timbs
 Donate link: https://github.com/tunbola
 Tags: woocommerce, shipping by states, shipping by cities, shipping by local government, woocommerce city shipping, woocommerce shippinhcities, Nigeria
 Requires at least: 4.0
+Requires PHP: 5.2.4
 Tested up to: 4.9.8
 Stable tag: 1.1.1
 WC requires at least: 2.2
