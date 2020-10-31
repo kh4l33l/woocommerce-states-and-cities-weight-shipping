@@ -122,7 +122,7 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters('active_plugins', get
          *
          * @return void
          */
-        public function calculate_shipping( $package ) {
+         public function calculate_shipping( $package = array() ) {
           $cart_weight = WC()->cart->get_cart_contents_weight();
           $destination_city = $package['destination']['city'];
           if ($destination_city) {
